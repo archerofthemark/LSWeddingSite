@@ -1,0 +1,103 @@
+body {
+  text-align: center;
+  background-color: #b3b3ff;
+  /* background-image: url("images/flower-background.jpg"); */
+
+}
+p {
+  color: black;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+.top {
+  margin:auto;
+}
+
+.flowers-splash {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.img {
+  width:100%;
+  z-index: 0;
+  height: auto;
+}
+
+.text-over-img {
+  position:absolute;
+	z-index:1;
+	font-size: 5rem;
+	margin-top: -50%;
+  margin-left:25%;
+  color: white;
+  text-align: center;
+}
+
+.transparent {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 6vw;
+  color: white;
+}
+
+/* .copyright, .thornton {
+  text-align: center;
+} */
+
+.title {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.venue-background{
+  background-color: black;
+}
+
+.background {
+  position:relative;
+}
+
+.thornton-img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+.thornton-text {
+  margin-top: 1em;
+  font-size: 3vw;
+  color: black;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.map-container-5{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
